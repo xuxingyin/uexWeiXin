@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uexplugins>
+    <plugin 
+        className="org.zywx.wbpalmstar.plugin.uexweixin.EuexWeChat"
+        uexName="uexWeiXin">
+        <method name="registerApp" />
+        <method name="isWXAppInstalled" />
+        <method name="sendTextContent" />
+        <method name="sendImageContent" />       
+        <method name="isSupportPay" />
+        <method name="getAccessToken" />
+        <method name="generateAdvanceOrder" />
+        <method name="getAccessTokenLocal" />
+        <method name="gotoPay" />
+        <method name="generatePrepayID" />
+        <method name="sendPay" />
+    </plugin>
+</uexplugins>

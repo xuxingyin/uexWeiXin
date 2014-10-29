@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<uexplugins>
+    <plugin uexName="uexWeiXin" version="3.0.17" build = "17">
+        <info>17:修复分享完成回调时网页未恢复的问题</info>
+        <build>16:修改AndroidManifest文件中微信相关activity注册信息</build>
+        <build>15:更新插件中引擎jar包</build>
+        <build>14:修复支付完成回调时网页未恢复的问题</build>
+        <build>13:新增接口generatePrepayID和sendPay</build>
+        <build>12:修复微信支付完成后没有回调的问题</build>
+        <build>11:修改cbIsWXAppInstalled回调方法参数，已安装返回0，未安装返回1 </build>
+        <build>10:修改mainfest添加微信activity </build>
+        <build>9:添加cbSendTextContent和cbSendImageContent回调 </build>
+        <build>8:添加注册回调cbRegisterApp</build>
+        <build>7:添加架包</build>
+        <build>6:处理分享图片问题</build>
+        <build>5:修复扶贫基金会中的回调兼容问题</build>
+        <build>4:处理微信返回值问题</build>
+        <build>3:修复微信不能生成订单问题</build>
+        <build>2:修复配置问题</build>
+        <build>1:修复微信资源问题</build>
+        <build>0:微信分享功能插件</build>
+    </plugin>
+</uexplugins>
